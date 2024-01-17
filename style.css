@@ -1,10 +1,17 @@
 #container {
     display: flex;
     flex-direction: column;
-    width: 960px;
-    height: 960px;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    margin-top: 5%;
 }
 
-.changeColor {
-    background-color: red;
+#gridBtn{ 
+    width: 250px;
+    height: 100px;
+    font-size: 24px;
+    padding: 20px;
+    border: 2px dashed black;
+    margin: 10px 0px 0px 100px;
 }
